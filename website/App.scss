@@ -1,0 +1,22 @@
+body {
+    font-family: Gilroy, sans-serif, Avenir, Helvetica, Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+#app {
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 120px;
+}
+
+.language_btn {
+    position: fixed;
+    font-weight: bold !important;
+    top: 24px;
+    right: 24px;
+}

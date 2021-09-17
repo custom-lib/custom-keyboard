@@ -1,0 +1,21 @@
+.wrapper {
+    display: inline-block;
+    min-width: 400px;
+    padding: 0 24px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    opacity: 1;
+    transition: background-color 2000ms ease;
+    > .split:last-of-type {
+        display: none;
+    }
+    margin-top: 16px;
+}
+
+.split {
+    margin: 0 12px;
+}
